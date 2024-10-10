@@ -51,6 +51,6 @@ Please send any feedback or suggestions to [@ascoos](https://x.com/ascoos) (X - 
 
 ## Download
 
-- [ASCOOS CMS More Author Articles from Original Download site](https://dl.ascoos.com/cms/ascoos/ext/blocks/phpclasses_latest/phpclasses_latest-latest.zip)
+- [ASCOOS CMS More Author Articles from Original Download site](https://dl.ascoos.com/cms/ascoos/ext/blocks/phpclasses-latest/phpclasses_latest-latest.zip)
 
 - [ASCOOS CMS  More Author Articles from Github](https://github.com/ascoos/phpclasses_latest/releases)
