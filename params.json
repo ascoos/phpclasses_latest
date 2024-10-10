@@ -1,0 +1,58 @@
+{
+	"attrs": {
+		"type": "parameters",
+		"client": "block",
+		"version": "1.0.0",
+		"name": "phpclasses_latest"
+	},
+	"header": {
+		"version": "1.0.0",
+		"license": "APL_license",
+		"author": "APL_author",
+		"creation": "APL_creation",
+		"copyright": "APL_copyright",
+		"email": "webmaster@alexsoft.gr",
+		"url": "www.alexsoft.gr",
+		"translator": "APL_translator",
+		"translatorEmail": "APL_translatorEmail",
+		"translatorUrl": "APL_translatorUrl",
+		"description": "APL_desc"
+	},
+	"params": {
+		"0": {
+			"paramgroup": "APL_paramgroup_general_label",
+			"0": {
+				"name": "count",
+				"type": "integer",
+				"default": 5,
+				"label": "APL_count_label",
+				"description": "APL_count_desc"
+			},
+			"1": {
+				"type": "separate"
+			},
+			"2": {
+				"name": "username",
+				"type": "text",
+				"default": "bigfriend",
+				"label": "APL_username_label",
+				"description": "APL_username_desc"
+			},
+			"3": {
+				"name": "show_days",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_days_label",
+				"description": "APL_show_days_desc"
+			},
+			"4": {
+				"name": "theme",
+				"type": "themelist",
+				"placeholder":"APL_theme_placeholder",
+				"default": "default",
+				"label": "APL_theme_label",
+				"description": "APL_theme_desc"
+			}
+		}
+	}
+}
