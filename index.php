@@ -32,8 +32,6 @@
 
 defined ("ALEXSOFT_RUN_CMS") or die("Prohibition of Access.");
 
-global $cms_site, $objDatabase, $objLang, $ASCOOS, $app, $my, $option, $task, $aid, $objDual;
-
 
 // Get Value Block Parameters
 $count 		= $block->getParam('int', 'count', 10 );					// How many classes will be displayed.
