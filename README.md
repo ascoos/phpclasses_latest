@@ -11,7 +11,7 @@ Displays a box with other articles of the author.
 
 The contents can be displayed in the current or in all languages where texts are available.
 
-<p align="center"><img src="screenshot.png" /></p>
+<p align="center"><img src="screenshot3.png" /></p>
 
 ***
 

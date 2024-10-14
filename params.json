@@ -2,7 +2,7 @@
 	"attrs": {
 		"type": "parameters",
 		"client": "block",
-		"version": "1.0.0",
+		"version": "1.0.1",
 		"name": "phpclasses_latest"
 	},
 	"header": {
@@ -22,30 +22,48 @@
 		"0": {
 			"paramgroup": "APL_paramgroup_general_label",
 			"0": {
+				"name": "method",
+				"type": "list",
+				"optval":"xml,rss",
+				"opttext":"APL_opt_XML,APL_opt_RSS",
+				"placeholder":"APL_method_placeholder",
+				"placeholderVal":"",
+				"default": "",
+				"label": "APL_method_label",
+				"description": "APL_method_desc"
+			},
+			"1": {
 				"name": "count",
 				"type": "integer",
 				"default": 5,
 				"label": "APL_count_label",
 				"description": "APL_count_desc"
 			},
-			"1": {
+			"2": {
 				"type": "separate"
 			},
-			"2": {
+			"3": {
 				"name": "username",
 				"type": "text",
 				"default": "bigfriend",
 				"label": "APL_username_label",
 				"description": "APL_username_desc"
 			},
-			"3": {
+			"4": {
+				"name": "show_summary",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_summary_label",
+				"description": "APL_show_summary_desc"
+			},			
+			"5": {
 				"name": "show_days",
 				"type": "boolean",
 				"default": 0,
 				"label": "APL_show_days_label",
 				"description": "APL_show_days_desc"
 			},
-			"4": {
+			"6": {
 				"name": "theme",
 				"type": "themelist",
 				"placeholder":"APL_theme_placeholder",

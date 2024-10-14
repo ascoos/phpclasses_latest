@@ -20,9 +20,9 @@
  * @subpackage         : installation file
  * @source             : /[BLOCKS PATH]/phpclasses_latest/install.php
  * @fileNo             : 
- * @version            : 1.0.0
+ * @version            : 1.0.1
  * @created            : 2024-10-10 07:00:00 UTC+3
- * @updated            : 
+ * @updated            : 2024-10-14 07:00:00 UTC+3
  * @author             : Drogidis Christos
  * @authorSite         : www.alexsoft.gr
 */
@@ -56,7 +56,7 @@ if (!$objInstaller->isInstalled()) {
 		$block_order = $objInstaller->getOrderPosition('NOTHING');
 	
 		// Place the Block in the database.
-		$objInstaller->addSQL("INSERT INTO #__blocks VALUES(NULL, '".$objInstaller->name."', '".$objInstaller->name."', '0', '0', '{\"en\":\"Latest classes from PHPClasses\",\"el\":\"Πρόσφατες κλάσεις από το PHPClasses\"}', '', '', '', '', ".$block_pos.", ".$block_order.", '', '0', '0', '0', '0', '{\"count\":5,\"username\":\"bigfriend\",\"show_days\":0,\"theme\":\"default\"}');");
+		$objInstaller->addSQL("INSERT INTO #__blocks VALUES(NULL, '".$objInstaller->name."', '".$objInstaller->name."', '0', '0', '{\"en\":\"Latest classes from PHPClasses\",\"el\":\"Πρόσφατες κλάσεις από το PHPClasses\"}', '', '', '', '', ".$block_pos.", ".$block_order.", '', '0', '0', '0', '0', '{\"method\":\"xml\",\"count\":5,\"username\":\"bigfriend\",\"show_summary\":0,\"show_days\":0,\"theme\":\"default\"}');");
 		
 		// pour the settings from the installer.
 		$objInstaller->clear();

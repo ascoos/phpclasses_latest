@@ -20,9 +20,9 @@
  * @subpackage         	: General and US English Language file
  * @source             	: /[BLOCKS PATH]/phpclasses_latest/languages/en.php
  * @fileNo             	: 
- * @version            	: 1.0.0
+ * @version            	: 1.0.1
  * @created            	: 2024-10-10 07:00:00 UTC+3
- * @updated            	: 
+ * @updated            	: 2024-10-14 07:00:00 UTC+3
  * @author             	: Drogidis Christos
  * @authorSite         	: www.alexsoft.gr
  * @translator         	: 
@@ -48,10 +48,17 @@ class TBlock_phpclasses_latest_Language extends TObject
 
 	public $APL_paramgroup_general_label = "▼ &nbsp; General Configuration Options";
 	public $APL_paramgroup_general_label_info = "<strong>GENERAL OPTIONS PARAMETERS</strong><br />--------------------------------------<br /><br />In this context you can choose from several general parameters and dynamically configure the block";
+	public $APL_method_label = "Select a feed file";
+	public $APL_method_placeholder = " Select Feed (XML or RSS)";
+	public $APL_method_desc = "<strong>SELECT A FEED FILE</strong><br />--------------------------------------<br /><br />Here you need to select the format of the feed file. You have two options, XML or RSS.";	
+	public $APL_opt_XML = "XML";
+	public $APL_opt_RSS = "RSS 2.0";
 	public $APL_count_label = "Number of classes";
 	public $APL_count_desc = "<strong>NUMBER OF CLASSES</strong><br />--------------------------------------<br /><br />Here you must select the number of classes that will appear";
 	public $APL_username_label = "Username";
 	public $APL_username_desc = "<strong>USERNAME</strong><br />--------------------------------------<br /><br />Here you need to provide the ID username you log in to phpclasses.org";
+	public $APL_show_summary_label = "Show short description";
+	public $APL_show_summary_desc = "<strong>SHOW SHORT DESCRIPTION</strong><br />--------------------------------------<br /><br />Do you want to display a short description for each link?";
 	public $APL_show_days_label = "Show Days";
 	public $APL_show_days_desc = "<strong>SHOW DAYS</strong><br />--------------------------------------<br /><br />Do you want to display a column with the days that have passed since the class was posted?";
 	public $APL_theme_label = "Theme of appearance of Block";
